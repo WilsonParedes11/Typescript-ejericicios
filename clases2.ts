@@ -4,7 +4,7 @@ interface Vehicle {
     doors: number;
     accelerate(speed: number): string;
     brake(): string;
-    turn(direction: 'left' | 'right'): string;
+    //turn(direction: 'left' | 'right'): string;
 }
 
 class Car implements Vehicle {
